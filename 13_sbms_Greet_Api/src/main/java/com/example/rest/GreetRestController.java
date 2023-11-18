@@ -9,4 +9,11 @@ public class GreetRestController {
 	public String getGreetMsg() {
 		return "Good Evening";
 	}
+
+@RestController
+public class GreetRestController {
+	@GetMapping("/greet1")
+	public String getGreetMsg() {
+		return "Good Evening";
+	}
 }
