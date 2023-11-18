@@ -13,7 +13,6 @@ public class GreetRestController {
 @RestController
 public class GreetRestController {
 	@GetMapping("/greet1")
-	public String getGreetMsg() {
-		return "Good Evening";
+	
 	}
 }
